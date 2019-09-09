@@ -1,0 +1,102 @@
+[2019-09-08 22:55:49.623] [ERROR] [default] - TypeError: logger is not a function
+    at print (/home/andres/Documents/projects/cr-people/node_modules/knex-tiny-logger/lib/index.js:116:5)
+    at withQuery (/home/andres/Documents/projects/cr-people/node_modules/knex-tiny-logger/lib/index.js:65:7)
+    at withQuery (/home/andres/Documents/projects/cr-people/node_modules/knex-tiny-logger/lib/index.js:97:5)
+    at Function.handleQueryError (/home/andres/Documents/projects/cr-people/node_modules/knex-tiny-logger/lib/index.js:60:5)
+    at emitTwo (events.js:125:13)
+    at Function.emit (events.js:213:7)
+    at Client_SQLite3._addInternalListener (/home/andres/Documents/projects/cr-people/node_modules/knex/lib/util/make-knex.js:241:10)
+    at emitTwo (events.js:125:13)
+    at Client_SQLite3.emit (events.js:213:7)
+    at _query.catch (/home/andres/Documents/projects/cr-people/node_modules/knex/lib/client.js:161:12)
+From previous event:
+    at Client_SQLite3.query (/home/andres/Documents/projects/cr-people/node_modules/knex/lib/client.js:158:46)
+    at Runner.query (/home/andres/Documents/projects/cr-people/node_modules/knex/lib/runner.js:135:36)
+    at /home/andres/Documents/projects/cr-people/node_modules/knex/lib/runner.js:39:23
+From previous event:
+    at Runner.run (/home/andres/Documents/projects/cr-people/node_modules/knex/lib/runner.js:25:16)
+    at Builder.Target.then (/home/andres/Documents/projects/cr-people/node_modules/knex/lib/interface.js:14:43)
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+    at Function.Module.runMain (module.js:611:11)
+    at startup (bootstrap_node.js:158:16)
+    at bootstrap_node.js:598:3
+[2019-09-08 22:56:17.061] [ERROR] [default] - TypeError: Cannot read property 'isLevelEnabled' of undefined
+    at Logger.(anonymous function) (/home/andres/Documents/projects/cr-people/node_modules/log4js/lib/logger.js:83:33)
+    at print (/home/andres/Documents/projects/cr-people/node_modules/knex-tiny-logger/lib/index.js:116:5)
+    at withQuery (/home/andres/Documents/projects/cr-people/node_modules/knex-tiny-logger/lib/index.js:65:7)
+    at withQuery (/home/andres/Documents/projects/cr-people/node_modules/knex-tiny-logger/lib/index.js:97:5)
+    at Function.handleQueryError (/home/andres/Documents/projects/cr-people/node_modules/knex-tiny-logger/lib/index.js:60:5)
+    at emitTwo (events.js:125:13)
+    at Function.emit (events.js:213:7)
+    at Client_SQLite3._addInternalListener (/home/andres/Documents/projects/cr-people/node_modules/knex/lib/util/make-knex.js:241:10)
+    at emitTwo (events.js:125:13)
+    at Client_SQLite3.emit (events.js:213:7)
+    at _query.catch (/home/andres/Documents/projects/cr-people/node_modules/knex/lib/client.js:161:12)
+From previous event:
+    at Client_SQLite3.query (/home/andres/Documents/projects/cr-people/node_modules/knex/lib/client.js:158:46)
+    at Runner.query (/home/andres/Documents/projects/cr-people/node_modules/knex/lib/runner.js:135:36)
+    at /home/andres/Documents/projects/cr-people/node_modules/knex/lib/runner.js:39:23
+From previous event:
+    at Runner.run (/home/andres/Documents/projects/cr-people/node_modules/knex/lib/runner.js:25:16)
+    at Builder.Target.then (/home/andres/Documents/projects/cr-people/node_modules/knex/lib/interface.js:14:43)
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+    at Function.Module.runMain (module.js:611:11)
+    at startup (bootstrap_node.js:158:16)
+    at bootstrap_node.js:598:3
+[2019-09-08 22:56:51.121] [INFO] [default] - starting
+[2019-09-08 22:56:51.155] [ERROR] [default] - TypeError: Cannot read property 'isLevelEnabled' of undefined
+    at Logger.(anonymous function) (/home/andres/Documents/projects/cr-people/node_modules/log4js/lib/logger.js:83:33)
+    at print (/home/andres/Documents/projects/cr-people/node_modules/knex-tiny-logger/lib/index.js:116:5)
+    at withQuery (/home/andres/Documents/projects/cr-people/node_modules/knex-tiny-logger/lib/index.js:65:7)
+    at withQuery (/home/andres/Documents/projects/cr-people/node_modules/knex-tiny-logger/lib/index.js:97:5)
+    at Function.handleQueryError (/home/andres/Documents/projects/cr-people/node_modules/knex-tiny-logger/lib/index.js:60:5)
+    at emitTwo (events.js:125:13)
+    at Function.emit (events.js:213:7)
+    at Client_SQLite3._addInternalListener (/home/andres/Documents/projects/cr-people/node_modules/knex/lib/util/make-knex.js:241:10)
+    at emitTwo (events.js:125:13)
+    at Client_SQLite3.emit (events.js:213:7)
+    at _query.catch (/home/andres/Documents/projects/cr-people/node_modules/knex/lib/client.js:161:12)
+From previous event:
+    at Client_SQLite3.query (/home/andres/Documents/projects/cr-people/node_modules/knex/lib/client.js:158:46)
+    at Runner.query (/home/andres/Documents/projects/cr-people/node_modules/knex/lib/runner.js:135:36)
+    at /home/andres/Documents/projects/cr-people/node_modules/knex/lib/runner.js:39:23
+From previous event:
+    at Runner.run (/home/andres/Documents/projects/cr-people/node_modules/knex/lib/runner.js:25:16)
+    at Builder.Target.then (/home/andres/Documents/projects/cr-people/node_modules/knex/lib/interface.js:14:43)
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+    at Function.Module.runMain (module.js:611:11)
+    at startup (bootstrap_node.js:158:16)
+    at bootstrap_node.js:598:3
+[2019-09-08 22:57:22.956] [INFO] [default] - starting
+[2019-09-08 22:57:22.989] [ERROR] [default] - Error: SQLITE_ERROR: no such column: true
+    at Client_SQLite3._query (/home/andres/Documents/projects/cr-people/node_modules/knex/lib/dialects/sqlite3/index.js:99:12)
+    at Client_SQLite3.query (/home/andres/Documents/projects/cr-people/node_modules/knex/lib/client.js:158:17)
+    at Runner.query (/home/andres/Documents/projects/cr-people/node_modules/knex/lib/runner.js:135:36)
+    at /home/andres/Documents/projects/cr-people/node_modules/knex/lib/runner.js:39:23
+From previous event:
+    at Runner.run (/home/andres/Documents/projects/cr-people/node_modules/knex/lib/runner.js:25:16)
+    at Builder.Target.then (/home/andres/Documents/projects/cr-people/node_modules/knex/lib/interface.js:14:43)
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+    at Function.Module.runMain (module.js:611:11)
+    at startup (bootstrap_node.js:158:16)
+    at bootstrap_node.js:598:3
+[2019-09-08 22:58:25.215] [INFO] [default] - starting
+[2019-09-08 22:58:25.246] [ERROR] [default] - Error: SQLITE_ERROR: no such column: 1
+    at Client_SQLite3._query (/home/andres/Documents/projects/cr-people/node_modules/knex/lib/dialects/sqlite3/index.js:99:12)
+    at Client_SQLite3.query (/home/andres/Documents/projects/cr-people/node_modules/knex/lib/client.js:158:17)
+    at Runner.query (/home/andres/Documents/projects/cr-people/node_modules/knex/lib/runner.js:135:36)
+    at /home/andres/Documents/projects/cr-people/node_modules/knex/lib/runner.js:39:23
+From previous event:
+    at Runner.run (/home/andres/Documents/projects/cr-people/node_modules/knex/lib/runner.js:25:16)
+    at Builder.Target.then (/home/andres/Documents/projects/cr-people/node_modules/knex/lib/interface.js:14:43)
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+    at Function.Module.runMain (module.js:611:11)
+    at startup (bootstrap_node.js:158:16)
+    at bootstrap_node.js:598:3
+[2019-09-08 22:58:43.970] [INFO] [default] - starting
+[2019-09-08 22:58:44.001] [INFO] [default] - [p 28622] Listening at port 3000
+[2019-09-08 22:59:39.859] [INFO] [default] - starting
+[2019-09-08 22:59:39.890] [INFO] [default] - [p 28659] Listening at port 3000
+[2019-09-08 23:00:14.038] [INFO] [default] - starting
+[2019-09-08 23:00:14.069] [INFO] [default] - [p 28707] Listening at port 3000
+[2019-09-08 23:00:38.155] [INFO] [default] - [p 28729] Listening at port 3000
