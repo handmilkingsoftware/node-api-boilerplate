@@ -36,7 +36,7 @@
     "express": "^4.15.2",
     "express-status-monitor": "^0.1.9",
     "http-status": "^1.0.1",
-    "knex": "^0.19.3",
+    "knex": "^0.19.5",
     "knex-tiny-logger": "^1.1.0",
     "lodash": "^4.17.15",
     "log4js": "^1.1.1",
